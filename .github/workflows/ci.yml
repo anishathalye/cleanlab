@@ -20,5 +20,5 @@ jobs:
           pip install -r requirements-dev.txt  # install development dependencies and type stubs
       - name: Setup upterm session
         uses: lhotari/action-upterm@v1
-      - name: Type check
-        run: mypy --install-types --non-interactive --allow-redefinition cleanlab
+          #- name: Type check
+          #run: mypy --install-types --non-interactive --allow-redefinition cleanlab
